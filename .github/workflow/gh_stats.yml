@@ -1,0 +1,23 @@
+name: Collect GitHub Stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Run daily at midnight
+  workflow_dispatch:      # Allow manual trigger
+
+jobs:
+  collect-stats:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Collect GitHub Stats
+        uses: LukeHagar/stats-action@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.USER_PAT }}
+
+      - name: Commit stats
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "Update GitHub stats"
+          file_pattern: handika-gh-stats.json
