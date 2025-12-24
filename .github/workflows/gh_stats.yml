@@ -1,4 +1,4 @@
-name: Collect GitHub Stats
+name: Collect GH Profile Stats
 
 on:
   schedule:
@@ -12,7 +12,7 @@ jobs:
       - uses: actions/checkout@v4
 
       - name: Collect GitHub Stats
-        uses: LukeHagar/stats-action@v1
+        uses: LukeHagar/stats-action@main
         env:
           GITHUB_TOKEN: ${{ secrets.GH_STATS }}
       - name: Commit stats
