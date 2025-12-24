@@ -14,8 +14,7 @@ jobs:
       - name: Collect GitHub Stats
         uses: LukeHagar/stats-action@v1
         env:
-          GITHUB_TOKEN: ${{ secrets.USER_PAT }}
-
+          GITHUB_TOKEN: ${{ secrets.GH_STATS }}
       - name: Commit stats
         uses: stefanzweifel/git-auto-commit-action@v5
         with:
