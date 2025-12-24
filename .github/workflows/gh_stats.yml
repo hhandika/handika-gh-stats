@@ -5,18 +5,24 @@ on:
     - cron: '0 0 * * *'  # Run daily at midnight
   workflow_dispatch:      # Allow manual trigger
 
+permissions:
+  # Give the default GITHUB_TOKEN write permission to commit and push the
+  # added or changed files to the repository.
+  contents: write
+
 jobs:
   collect-stats:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v6
 
-      - name: Collect GitHub Stats
+      - name: Collect GH Profile Stats
         uses: LukeHagar/stats-action@main
         env:
           GITHUB_TOKEN: ${{ secrets.GH_STATS }}
-      - name: Commit stats
-        uses: stefanzweifel/git-auto-commit-action@v5
+      - uses: stefanzweifel/git-auto-commit-action@v7
         with:
-          commit_message: "Update GitHub stats"
-          file_pattern: handika-gh-stats.json
+          commit_message: "Update GH profile stats"
+          commit_user_name: "github-actions[bot]"
+          commit_user_email: "github-actions[bot]@users.noreply.github.com"
+          branch: "main"
