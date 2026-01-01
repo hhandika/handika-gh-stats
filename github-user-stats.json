@@ -10,11 +10,11 @@
   "websiteUrl": "https://hhandika.com/",
   "createdAt": "2018-10-20T21:26:36Z",
   "repoViews": 0,
-  "linesOfCodeChanged": 1541720,
-  "linesAdded": 1080073,
-  "linesDeleted": 461647,
-  "commitCount": 6842,
-  "totalCommits": 9939,
+  "linesOfCodeChanged": 1541756,
+  "linesAdded": 1080093,
+  "linesDeleted": 461663,
+  "commitCount": 6843,
+  "totalCommits": 9940,
   "totalPullRequests": 87,
   "totalPullRequestReviews": 13,
   "codeByteTotal": 828336528,
@@ -232,14 +232,14 @@
   "repositoriesContributedTo": 9,
   "discussionsStarted": 2,
   "discussionsAnswered": 0,
-  "totalContributions": 12320,
+  "totalContributions": 12321,
   "contributionStats": {
     "longestStreak": 251,
-    "currentStreak": 7,
+    "currentStreak": 8,
     "mostActiveDay": "Thursday",
     "averagePerDay": 4.67,
-    "averagePerWeek": 32.72,
-    "averagePerMonth": 140.21,
+    "averagePerWeek": 32.69,
+    "averagePerMonth": 140.12,
     "monthlyBreakdown": [
       {
         "month": "2018-10",
@@ -587,7 +587,11 @@
       },
       {
         "month": "2025-12",
-        "contributions": 103
+        "contributions": 104
+      },
+      {
+        "month": "2026-01",
+        "contributions": 0
       }
     ]
   },
@@ -598,9 +602,9 @@
     "archivedRepos": 0,
     "forkedRepos": 14,
     "originalRepos": 80,
-    "activeRepos": 16,
+    "activeRepos": 0,
     "reposWithStars": 19,
-    "reposCreatedThisYear": 7,
+    "reposCreatedThisYear": 0,
     "averageStarsPerRepo": 0.52
   },
   "computedStats": {
@@ -610,75 +614,14 @@
     "archivedRepos": 0,
     "forkedRepos": 14,
     "originalRepos": 80,
-    "activeRepos": 16,
+    "activeRepos": 0,
     "reposWithStars": 19,
-    "reposCreatedThisYear": 7,
+    "reposCreatedThisYear": 0,
     "averageStarsPerRepo": 0.52,
     "languageCount": 34,
     "primaryLanguage": "C",
-    "primaryLanguageThisYear": "Rust",
-    "topLanguagesThisYear": [
-      {
-        "languageName": "Rust",
-        "color": "#dea584",
-        "value": 1074019,
-        "percentage": 41.14
-      },
-      {
-        "languageName": "Dart",
-        "color": "#00B4AB",
-        "value": 854939,
-        "percentage": 32.74
-      },
-      {
-        "languageName": "Astro",
-        "color": "#ff5a03",
-        "value": 271133,
-        "percentage": 10.38
-      },
-      {
-        "languageName": "TypeScript",
-        "color": "#3178c6",
-        "value": 84128,
-        "percentage": 3.22
-      },
-      {
-        "languageName": "C++",
-        "color": "#f34b7d",
-        "value": 77439,
-        "percentage": 2.97
-      },
-      {
-        "languageName": "CMake",
-        "color": "#DA3434",
-        "value": 75874,
-        "percentage": 2.91
-      },
-      {
-        "languageName": "Python",
-        "color": "#3572A5",
-        "value": 61172,
-        "percentage": 2.34
-      },
-      {
-        "languageName": "C",
-        "color": "#555555",
-        "value": 20370,
-        "percentage": 0.78
-      },
-      {
-        "languageName": "Shell",
-        "color": "#89e051",
-        "value": 20143,
-        "percentage": 0.77
-      },
-      {
-        "languageName": "Ruby",
-        "color": "#701516",
-        "value": 19902,
-        "percentage": 0.76
-      }
-    ],
+    "primaryLanguageThisYear": null,
+    "topLanguagesThisYear": [],
     "totalTopics": 9,
     "topTopics": [
       {
@@ -729,23 +672,23 @@
       "rust",
       "sequence-alignment"
     ],
-    "contributionsThisYear": 1847,
-    "contributionsLastYear": 2811,
-    "yearOverYearGrowth": -34.29,
+    "contributionsThisYear": 0,
+    "contributionsLastYear": 1848,
+    "yearOverYearGrowth": -100,
     "mostProductiveMonth": {
       "month": "2023-05",
       "contributions": 448
     }
   },
   "contributionsCollection": {
-    "totalCommitContributions": 10348,
+    "totalCommitContributions": 10349,
     "restrictedContributionsCount": 1745,
     "totalIssueContributions": 23,
     "totalRepositoryContributions": 94,
     "totalPullRequestContributions": 88,
     "totalPullRequestReviewContributions": 13,
     "contributionCalendar": {
-      "totalContributions": 12320,
+      "totalContributions": 12321,
       "weeks": [
         {
           "contributionDays": [
@@ -12818,8 +12761,20 @@
               "date": "2025-12-30"
             },
             {
-              "contributionCount": 0,
+              "contributionCount": 1,
               "date": "2025-12-31"
+            },
+            {
+              "contributionCount": 0,
+              "date": "2026-01-01"
+            }
+          ]
+        },
+        {
+          "contributionDays": [
+            {
+              "contributionCount": 0,
+              "date": "2026-01-01"
             }
           ]
         }
@@ -12967,5 +12922,5 @@
   ],
   "closedIssues": 10,
   "openIssues": 13,
-  "fetchedAt": 1767142178525
+  "fetchedAt": 1767228903306
 }
